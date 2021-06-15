@@ -5,7 +5,7 @@ OWNER_ID = -174105461
 POST_ID = 35135
 
 # Токен(ы) пользователей
-TOKENS = environ.get('TOKENS').split(',')
+TOKENS = environ.get('').split(',')
 
 # Задержка в секундах (на данный момент 4 часа и 15 секунд)
 DELAY = (60 * 60 * 4) + 15
